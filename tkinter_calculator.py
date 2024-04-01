@@ -6,7 +6,7 @@ window=tk.Tk()
 window.title('Claculator')
 frame=tk.Frame(master=window,bg="skyblue",padx=10)
 frame.pack()
-entry=tk.Entry(master=frame,relief=SUNKEN,borderwidth=3,width=30)
+entry=tk.Entry(master=frame,relief=SUNKEN,borderwidth=3,width=40)
 entry.grid(row=0,column=0,columnspan=3,ipady=2,pady=2)
 
 def myclick(number):
